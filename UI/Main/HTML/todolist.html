@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To-Do List</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../CSS/style.css">
 </head>
+
 <body>
   <h1>To-Do List</h1>
-  <div>
-    <input type="text" id="todo-input" placeholder="Enter a new task" />
-    <button id="add-button">Add Task</button>
-  </div>
+  <div class="LoginMain">
+    <div class="Grid01">
+      <div class="textbox">
+        <div class="Name">
+        <input type="text" id="fullName" placeholder="Enter a Full Name" />
+        <!-- <button id="add-button">Add Task</button> -->
+      </div>
+      <div class="age">
+        <input type="number" id="age" placeholder="Enter your age" />
+        <!-- <button id="add-button">Add Task</button> -->
+      </div>
+    </div>
+    <div class="ParentIntput">
+    <div>
+      <input type="radio" id="Female" name="Female" value="Female" />
+      <label for="Female">Female</label>
+
+      <input type="radio" id="Male" name="Male" value="Male" />
+      <label for="Male">Male</label>
+
+      <input type="radio" id="Other" name="Other" value="Other" />
+      <label for="Other">Other</label>
+    </div>
+    <button id="Submit" onclick="addUser()">Submit</button>
+    
+    </div>
+    </div>
+  
   <ul id="todo-list"></ul>
-  <script src="script.js"></script>
+  <script src="../JS/script.js"></script>
 </body>
+
 </html>

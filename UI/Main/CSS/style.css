@@ -42,4 +42,22 @@ body {
   #add-button:hover {
     background-color: #2980b9;
   }
-  
+
+  #todo-input{
+    height: 33px;
+    width: 200px;
+  }
+
+  .LoginMain{
+    position: absolute;
+    left: 400px;
+    top: 300px;
+  }
+  .Name{
+    position: absolute;
+    top: -75px;
+  }
+  .age{
+    position: absolute;
+    top: -117px;
+  }
